@@ -51,7 +51,8 @@ address {
 }
 /* Wrapper */
 
-.wrapper {
+.header,
+.hero {
   display: flex;
   flex-direction: column;
   max-width: 1440px;
@@ -217,12 +218,21 @@ button:hover {
 }
 
 /* Why us */
-.why-us {
+.why-us,
+.change {
   display: flex;
+  flex-direction: column;
   background-image: url('../images/background-why-us.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover top;
+}
+.why-us {
+  height: 100vh; /* або будь-яка потрібна висота */
+}
+
+.change {
+  height: 100vh; /* або будь-яка потрібна висота */
 }
 .why-us-content {
   display: flex;
